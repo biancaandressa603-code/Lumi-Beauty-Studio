@@ -61,8 +61,10 @@ footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:13p
 
 }
 .logo{
-  width: 120px;
+  width: 60px;
   height: auto;
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
+  display: block;
 }
+
 
