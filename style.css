@@ -50,22 +50,6 @@ footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:13p
   display:flex; align-items:center; justify-content:center; text-decoration:none;
   box-shadow:0 4px 14px rgba(0,0,0,.4);
 }
-
-
-
-    .titulo-secao h2 {
-        font-size: 34px;
-    }
-
-    .sobre h2 {
-        font-size: 38px;
-    }
-
-    .cards-servicos {
-        grid-template-columns: 1fr;
-    }
-
-}
 .logo{
   width: 40px;
   height: auto;
