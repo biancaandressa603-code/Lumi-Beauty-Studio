@@ -89,6 +89,18 @@ footer a{
   0%,100%{ transform:rotate(45deg) translate(0,0); opacity:0.5; }
   50%{ transform:rotate(45deg) translate(6px,6px); opacity:1; }
 }
+.about{ border-top:1px solid var(--line); }
+.about-card{
+  background:#fff; border-radius:8px; padding:32px 24px;
+  display:flex; flex-direction:column; align-items:center; gap:20px;
+  text-align:center;
+}
+.about-photo{
+  width:120px; height:120px; border-radius:50%;
+  object-fit:cover; flex-shrink:0;
+}
+.about-text h2{ color:#15130F; margin-bottom:12px; }
+.about-text p{ color:#3a352c; margin:0; }
 
 
 
