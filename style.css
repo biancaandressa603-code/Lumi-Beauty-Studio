@@ -104,7 +104,7 @@ footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:13p
   position:fixed; bottom:calc(20px + env(safe-area-inset-bottom,0px)); right:20px;
   background:#25D366; color:#fff; width:52px; height:52px; border-radius:50%;
   display:flex; align-items:center; justify-content:center; text-decoration:none;
-  box-shadow:0 4px 14px rgba(0,0,0,.4);
+  box-shadow:0 4px 14px rgba(0,0,0,.4); z-index:10;
 }
 .ig-float{
   position:fixed; bottom:calc(84px + env(safe-area-inset-bottom,0px)); right:20px;
@@ -112,6 +112,7 @@ footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:13p
   width:52px; height:52px; border-radius:50%;
   display:flex; align-items:center; justify-content:center; text-decoration:none;
   box-shadow:0 4px 14px rgba(0,0,0,.4);
+  z-index:10;
 }
 .wa-float, .ig-float{
   transition: opacity 0.3s ease;
