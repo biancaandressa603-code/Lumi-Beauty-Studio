@@ -151,22 +151,28 @@ footer a{
   text-decoration: none;
   font-weight: 500;
 }
-.scroll-hint p {
-  color: #FFFFFF; /* Altera o texto "Deslize para ver mais" para branco */
-  font-size: 13px;
-  margin: 0;
-  letter-spacing: 0.02em;
+.scroll-hint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza a seta e o texto perfeitamente */
+  gap: 4px;
 }
 
 .scroll-hint span {
   display: block;
-  width: 20px;
-  height: 20px;
-  border-right: 3px solid #FFFFFF; /* Altera a seta para branco */
-  border-bottom: 3px solid #FFFFFF; /* Altera a seta para branco */
+  width: 14px;
+  height: 14px;
+  border-right: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
   transform: rotate(45deg);
   animation: bounce 1.5s ease-in-out infinite;
+  margin: 0 auto; /* Garante alinhamento total */
 }
+
 
 
 @keyframes bounce{
