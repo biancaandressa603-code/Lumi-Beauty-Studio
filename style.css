@@ -52,7 +52,7 @@ h1{font-size:clamp(34px,8vw,50px); line-height:1.2;}
   .btn{
   display:inline-block; margin-top:28px; padding:14px 30px;
   background:var(--gold); color:#15130F; text-decoration:none;
-  font-weight:500; border-radius:2px; font-size:15px;
+  font-weight:500; border-radius:8px; font-size:15px;box-shadow:0 6px 16px rgba(190,154,93,0.35);
   }
 section{
   padding:44px 0; border-top:1px solid var(--line);
