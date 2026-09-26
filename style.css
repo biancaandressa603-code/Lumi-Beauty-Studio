@@ -30,11 +30,11 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   align-items: center;
   
   background-image: url('foto-hero.jpg');
-  background-size: contain; /* Mostra a imagem toda sem cortar os lados */
-  background-position: center top; /* Centra a imagem no topo */
+  background-size: cover;
+  background-position: center center; /* Garante que o centro da foto fica focado no ecrã */
   background-repeat: no-repeat;
-  background-color: var(--bg); /* Preenche o fundo extra com a cor padrão para não ficar branco/vazio */
 }
+
 .hero-overlay {
   position: absolute;
   inset: 0;
