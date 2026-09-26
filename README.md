@@ -17,4 +17,4 @@ Site de uma página (landing page) desenvolvido para divulgar os serviços do sa
 - JavaScript
 
 ## Autora
-Desenvolvido por [seu nome ou @ do GitHub]
+Desenvolvido por [Bianca A. R. R]
