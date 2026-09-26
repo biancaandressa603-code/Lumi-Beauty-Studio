@@ -33,15 +33,12 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   mask-image: radial-gradient(ellipse 90% 80% at 50% 50%, black 40%, transparent 100%);
 }
 .hero-overlay {
-  position: absolute; 
+  position: absolute;
   inset: 0;
-  background: 
-    /* 1. Garante que a base mescle 100% com a seção de baixo */
-    linear-gradient(to bottom, transparent 60%, var(--bg) 100%),
-    /* 2. Cria o esfumaçado suave em TODAS as bordas (topo e laterais), tirando o corte quadrado */
-    radial-gradient(ellipse at center, transparent 40%, var(--bg) 100%);
+  background: rgba(0, 0, 0, 0.3); /* Apenas escurece levemente o fundo para ler os textos */
   z-index: 1;
 }
+
 
 .hero-content{
   position:relative; z-index:2;
