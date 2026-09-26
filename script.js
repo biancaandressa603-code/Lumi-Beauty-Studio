@@ -25,3 +25,15 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 
 revealTargets.forEach(el => observer.observe(el));
+document.addEventListener('gesturestart', function(e) {
+  e.preventDefault();
+}, { passive: false });
+let lastTouchEnd = 0;
+document.addEventListener('touchend', function(e) {
+  const now = (new Date()).getTime();
+  if (now - lastTouchEnd <= 300) {
+    e.preventDefault();
+  }
+  lastTouchEnd = now;
+}, { passive: false });
+
