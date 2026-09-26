@@ -26,10 +26,10 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   position: relative;
   width: 100%;
   min-height: 100dvh;
-  padding: 32px 24px 48px;
+  padding: 40px 24px 32px; /* Aumenta o espaçamento superior para o logo não colar no topo do telemóvel */
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between; /* Separa o conteúdo: logo em cima, títulos/botão em baixo */
   align-items: center;
   text-align: center;
   
@@ -37,18 +37,19 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* "Presnde" a imagem de fundo no lugar */
+  background-attachment: fixed;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Garante que elementos como o botão e o logo ficam centrados */
+  align-items: center;
 }
+
 .hero-title {
   color: var(--ink);
   font-size: clamp(20px, 5.5vw, 28px); /* Reduzido para caber numa linha em telemóveis */
