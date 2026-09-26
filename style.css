@@ -29,15 +29,13 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   justify-content: flex-end;
   align-items: center;
   
-  /* AQUI ESTÁ A MÁGICA PARA TRAVAR A IMAGEM */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Isso trava a imagem no fundo enquanto o resto rola por cima */
   
-  text-align: center;
-  -webkit-mask-image: radial-gradient(ellipse 90% 80% at 50% 50%, black 40%, transparent 100%);
-  mask-image: radial-gradient(ellipse 90% 80% at 50% 50%, black 40%, transparent 100%);
+    background-image: url(foto-hero.jpg');
+    background-size: cover; /* ou 'contain' se quiseres que a imagem apareça toda sem cortes */
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .hero-overlay {
   position: absolute;
