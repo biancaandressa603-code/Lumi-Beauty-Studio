@@ -29,14 +29,12 @@ h1,h2{font-family:'Cormorant Garamond',serif; margin:0; letter-spacing:0.01em; f
   justify-content: flex-end;
   align-items: center;
   
-  
-    background-image: url(foto-hero.jpg');
-    background-size: cover; /* ou 'contain' se quiseres que a imagem apareça toda sem cortes */
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('foto-hero.jpg');
+  background-size: contain; /* Mostra a imagem toda sem cortar os lados */
+  background-position: center top; /* Centra a imagem no topo */
+  background-repeat: no-repeat;
+  background-color: var(--bg); /* Preenche o fundo extra com a cor padrão para não ficar branco/vazio */
 }
-
-
 .hero-overlay {
   position: absolute;
   inset: 0;
